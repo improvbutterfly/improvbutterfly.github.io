@@ -1,0 +1,128 @@
+body {
+	background-color: #F3DEFF;
+	font-family: "Calibri", "Arial", "Sans"
+}
+
+main {
+	padding-bottom: 80px;
+}
+
+h1 {
+	background-color: #452F7C;
+	color: white;
+	padding: 20px;
+	padding-top: 80px;
+	font-family: "Copperplate", "Century Gothic", "Times New Roman", "Times", "Sans-Serif"
+
+}
+
+h2 {
+	color: #3CC1B6;
+	padding: 10px;
+	font-family: "Copperplate", "Century Gothic", "Times New Roman", "Times", "Sans-Serif"
+}
+
+h3 {
+	color: #1426A0;
+	text-align: center;
+	font-family: "Copperplate", "Century Gothic", "Times New Roman", "Times", "Sans-Serif"
+}
+
+p {
+	margin: 20px;
+	color: black;
+}
+
+a {
+	color: #452F7C;
+}
+
+a:hover {
+	color: #0DAAC2;
+}
+
+figure {
+	text-align: center;
+}
+
+.visualizations-menu img {
+	padding: 10px;
+}
+.visualizations-active figure {
+	border-style: solid;
+	border-width: 3px;
+	border-color: #1426A0;
+}
+
+.latitude-nav {
+  font-family: "Andale Mono", "Cambria";
+  border-style-bottom: solid; 
+  border-width: 30px;
+  border-color: #1426A0;
+}
+
+.latitude-nav nav {
+  background-color: #0DAAC2;
+}
+.latitude-nav a {
+	color: #1426A0;
+}
+.latitude-nav ul {
+	text-align: right;
+}
+
+.box {
+  min-width: 280px;
+  padding: 10px;
+  margin: 5px;
+  color: #fff;
+  border-style: solid; 
+  border-width: 2px;
+  border-color: #452F7C;
+}
+
+.box figcaption {
+	color: #1426A0;
+	text-align: center;
+	font-size: 8pt;
+}
+
+.box ul {
+	list-style-type: circle;
+	list-style-position: outside;
+	color: #452F7C; 
+}
+
+.wrap {
+	float: right;
+	width: 300px;
+}
+
+.visualizations {
+  background: white;
+}
+
+.vis-footer {
+  position: fixed; 
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  color: white;
+  background-color: #0DAAC2;
+  text-align: right;
+  border-style-top: solid; 
+  border-width: 2px;
+  border-color: #452F7C;
+}
+
+.vis-footer a {
+	color: white;
+	text-decoration: none;
+}
+.vis-footer a:hover {
+	color: #E4CBF2;
+	text-decoration: underline;
+}
